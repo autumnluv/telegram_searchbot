@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["python313", "gcc", "swig", "cmake", "pkg-config"]
+nixPkgs = ["python313", "python313Packages.pip", "gcc", "swig", "cmake", "pkg-config"]
 aptPkgs = ["build-essential", "libopenblas-dev", "liblapack-dev"]
 
 [phases.install]
