@@ -38,7 +38,7 @@ logging.getLogger("telegram").setLevel(logging.WARNING)
 logging.getLogger("sentence_transformers").setLevel(logging.WARNING)
 
 # --- 설정값 ---
-BOT_TOKEN = "8082917857:AAGJbOW8_nGHaUqQOjJeFxtX9cyLcVsjivM" # 👈 본인의 텔레그램 봇 토큰을 입력하세요.
+BOT_TOKEN = os.environ.get("BOT_TOKEN") # 👈 본인의 텔레그램 봇 토큰을 입력하세요.
 DB_FILE = "telegram_bot_messages.db"
 FAISS_INDEX_FILE = "faiss_index.bin"
 MODEL_NAME = 'jhgan/ko-sroberta-multitask'
