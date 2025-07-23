@@ -1,0 +1,6 @@
+python-telegram-bot==21.0.1
+sentence-transformers==2.5.1
+faiss-cpu==1.7.4
+numpy==1.26.4
+pytz==2024.1
+nest-asyncio==1.6.0
