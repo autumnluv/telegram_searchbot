@@ -1,6 +1,7 @@
+
 [phases.setup]
-nixPkgs = ["python313", "python313Packages.pip", "gcc", "swig", "cmake", "pkg-config"]
-aptPkgs = ["build-essential", "libopenblas-dev", "liblapack-dev"]
+# Nixpacks는 aptPkgs를 직접 지원하지 않으므로 nixPkgs만 사용
+nixPkgs = ["python313", "python313Packages.pip", "gcc", "swig", "cmake", "pkg-config", "openblas", "lapack"]
 
 [phases.install]
 cmds = [
