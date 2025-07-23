@@ -9,4 +9,4 @@ cmds = [
 ]
 
 [start]
-cmd = "python searchbot_ver0.5.0.py"
+cmd = "python searchbot_ver0.5.0.1.py"
